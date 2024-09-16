@@ -1,0 +1,14 @@
+[package]
+name = "iso-container-check"
+version = "0.1.0"
+authors = ["runner"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polars = {version = "0.43.1",features = ["lazy","parquet"]}
+regex = "1.10.6"
+serde = "1.0.210"
+toml = "0.8.19"
+
